@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#landing {
+    height: 100vh;
+    background-image: url('https://user-images.githubusercontent.com/26179770/37276818-e3e358f4-2608-11e8-9659-05585e92a588.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#mainText {
+    margin-top: 30vh;
+}
+
+#intro {
+    margin-top: 50px;
+}
+
+#work {
+    background-color: rgb(61, 61, 61);
+}
+
+#p1 {
+    height: 350px;
+}
+
+.sk-expertise {
+    border-radius: 6px;
+}
+
+h3 {
+    font-size: 1.4em;
+    letter-spacing: 0.04em;
+}
+
+#sk-email-phone {
+    line-height: 1.9em;
+}
+
+#sk-email-phone a:hover {
+    text-decoration: underline;
+}
+
+#sk-follow-me div:hover {
+    transform: scale(1.05);
+}
+
+#sk-follow-me svg {
+    fill: var(--color-cyan-darken-2);
+    width: 1em;
+    height: 1em;
+    margin-top: 0.1em;
+}
